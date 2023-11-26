@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+ul {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+button {
+  padding-inline: 8px;
+  padding-block: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-width: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.node-parent-wrapper,
+.folder-actions-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.folder-actions-wrapper button {
+  font-size: 12px;
+  font-weight: 400;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.node-parent-wrapper {
+  gap: 12px;
+}
